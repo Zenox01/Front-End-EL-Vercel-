@@ -1,0 +1,53 @@
+.dropdown {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+}
+
+.dropdown li {
+    position: relative;
+}
+
+.dropdown li a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown li ul {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    line-height: normal;
+}
+
+.dropdown li ul li a {
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.dropdown li ul li a:hover {
+    color: #DA2128;
+}
+
+.dropdown li ul li ul {
+    left: 100%;
+    top: 0;
+}
+
+.dropdown li:hover>a {
+    color: #DA2128 !important;
+}
+
+.dropdown li:hover>ul {
+    display: block;
+}

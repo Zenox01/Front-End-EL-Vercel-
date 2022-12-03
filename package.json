@@ -1,0 +1,82 @@
+{
+  "name": "validation-screen",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/lab": "^5.0.0-alpha.100",
+    "@mui/material": "^5.10.6",
+    "@mui/x-data-grid": "^5.17.3",
+    "@mui/x-date-pickers": "^5.0.2",
+    "@omtanke/react-use-event-outside": "^1.0.1",
+    "@types/jest": "^29.2.2",
+    "@types/node": "^18.11.9",
+    "@types/pascalcase": "^1.0.1",
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-router-hash-link": "^2.4.5",
+    "@types/react-syntax-highlighter": "^15.5.5",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.2",
+    "classnames": "^2.3.2",
+    "cra-template": "1.2.0",
+    "dayjs": "^1.11.5",
+    "formik": "^2.2.9",
+    "framer-motion": "^7.6.5",
+    "html-react-parser": "^3.0.4",
+    "i": "^0.3.7",
+    "npm": "^9.1.1",
+    "pascalcase": "^2.0.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
+    "react-jss": "^10.9.2",
+    "react-loader-spinner": "^5.3.4",
+    "react-number-format": "^5.1.1",
+    "react-offcanvas": "^0.4.0",
+    "react-popper": "^2.3.0",
+    "react-router-dom": "^6.4.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-toastify": "^9.0.8",
+    "react-use": "^17.4.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-offcanvas": "^0.4.1"
+  }
+}
